@@ -13,6 +13,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
+    versioning-strategy: "increase"
     labels:
       - "dependencies"
   - package-ecosystem: "github-actions"
