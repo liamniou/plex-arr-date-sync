@@ -31,7 +31,7 @@ jobs:
             type=raw,value=latest
             type=raw,value={{date 'YYYY.M.D'}}.${{ github.run_number }}
             type=sha,prefix=sha-,format=short
-      - uses: docker/build-push-action@v6
+      - uses: docker/build-push-action@v7
         with:
           context: .
           push: true
